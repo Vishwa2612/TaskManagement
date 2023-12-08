@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  background: white;
+  text-align: center;
+}
+
+.app {
+  display: flex table-column;
+  justify-content: center;
+  box-shadow: 1px 1px 40px 4px grey;
+  border-radius: 20px;
+  padding: 10px;
+  color:  #DD4124;
+}
+
+.form{
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+label{
+  color:#9B2335;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+input{
+  font-size: 18px;
+
+}
+
+#taskInput{
+  margin-left: 60px;
+  font-size: 21px;
+}
+
+#taskDes{
+  font-size: 21px;
+}
+
+#deadlineInput{
+  margin-left: 65px;
+  font-size: 20px;
+}
+
+.taskList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: left;
+}
+
+.task {
+  flex: 1 0 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+span{
+  font-size: 20px;
+  font-weight:600;
+  color: rgb(240, 174, 69);
+}
+
+.Ended {
+  background-color: rgb(255, 0, 40);
+  color:  #2b1007; 
+}
+
+.Completed {
+  background-color: #5be7a9;  
+  color:  #0063b9;
+}
+
+.Progress {
+  background-color:gray; 
+  color: #084abe;
+}
+
+button {
+  margin-top: 5px;
+  cursor: pointer;
+}
